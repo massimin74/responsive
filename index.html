@@ -1,0 +1,132 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"> <!-- tag fondamentale per il responsive, senza il quale non funziona, la viewport è l'area di rendering del dispositivo, del device, devide-width significa che la larghezza viene equiparata a quella del device, non basta dargli anche l'altezza, basta uno dei due parametri; initial scale è lo zoom e 1.0 significa 100%; minimum-scale è zoom-out, cioè il rimpicciolimento e vice versa per l'altro che è l'ingrandimento; per tutti questi valori si va da un minimo di 1.0 ad un massimo di 10.0; user-scalable significa bloccare o meno all'utente la possibilità di fare lo zoom -->
+    
+    
+    <link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="flexslider/flexslider.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+	<link rel="stylesheet" href="touchTouch/touchTouch.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,300,100,500" rel='stylesheet' type='text/css'>
+
+	<script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
+    <script type="text/javascript" src="flexslider/jquery.flexslider.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="touchTouch/touchTouch.jquery.js"></script>
+    <title>Responsive</title>
+    
+</head>
+
+<body>
+	<div id="header">
+    	<div class="wrapper clearfix">
+        	<hgroup> <!--tag deprecato, sconsigliato-->
+            	<h1>Responsive</h1>
+                <h2>Sito a scopo didattico</h2>
+            </hgroup>
+        </div>
+    </div>
+    
+	<header>
+        <div class="wrapper clearfix">
+            <a id="burger" href="#"><i class="fa fa-bars"></i></a>
+        	<nav>
+            	<ul class="menuprincipale">
+                	<li><a href="#about">About</a></li>
+                	<li><a href="#immagini">Immagini</a></li>
+                	<li><a href="#contatti">Contatti</a></li>
+                </ul>
+            </nav>
+        </div><!--chiuso wrapper-->
+    </header>
+    
+    <section class="flexslider">
+                	<ul class="slides">
+                    	<li><img src="img/banner1.jpg" alt="banner1"></li>
+                    	<li><img src="img/banner2.jpg" alt="banner2"></li>
+                    	<li><img src="img/banner3.jpg" alt="banner3"></li>
+                    </ul>
+    </section>
+    
+    <section>
+    	<div class="wrapper">
+       		<h2 id="about">About</h2>
+            <div class="multi-column">
+            	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sit amet eros elit. Vivamus dui lacus, pharetra nec sagittis at, auctor vel nisl. Morbi gravida feugiat lectus, ac dapibus arcu mollis a. Duis congue ante quis magna tristique, hendrerit suscipit metus tristique. Aliquam ornare mauris nibh. Ut in auctor tellus, ac aliquet neque. Duis lobortis ante non urna rhoncus egestas. Praesent tempor ultricies dolor, sit amet venenatis libero pulvinar eget. Quisque euismod eu urna eu pulvinar.Curabitur in nunc vulputate mi viverra mollis at ac dolor. Pellentesque pretium sem a euismod ultricies. Aliquam vulputate sit amet orci sit amet pretium. Aliquam erat volutpat. Donec ut justo nisl. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque consectetur dolor quis lacus cursus sodales. Integer ornare tempor tincidunt. Sed laoreet diam eget nibh hendrerit, nec pellentesque urna tempor. Donec accumsan est et enim vulputate blandit. Praesent id metus tincidunt, sagittis ante in, convallis metus. Morbi ut ante efficitur, gravida erat at, mollis velit. Donec imperdiet porta sodales. Mauris blandit, lectus in convallis ornare, enim turpis condimentum diam, ut malesuada erat nisl aliquam eros.</p>
+                <p>Quisque pharetra lobortis augue, ac sagittis diam tristique non. Nunc ut quam venenatis, rhoncus tortor id, varius tortor. Morbi fermentum, sem vel viverra consectetur, felis enim vulputate urna, nec ullamcorper massa dui ac neque. Nullam pretium mi quis sollicitudin porta. Duis tempus mollis quam eget lobortis. Donec sollicitudin purus in elit egestas porta. Curabitur varius fringilla massa. Nam purus est, porttitor non ullamcorper commodo, varius ac enim. Aenean et ipsum vitae justo luctus sodales. Donec ante mi, facilisis nec nisl nec, tincidunt congue ipsum.</p>
+                <p>Fusce mattis interdum odio, ac egestas felis scelerisque nec. Etiam ut eros dui. Proin efficitur blandit dapibus. Morbi vitae erat arcu. Aenean tristique felis auctor, ultricies libero nec, iaculis massa. Pellentesque ligula metus, cursus ut hendrerit pulvinar, iaculis ac justo. Duis sem arcu, fermentum id mi a, pretium gravida ipsum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce ullamcorper lacinia nisl, at tincidunt nunc commodo ut. Nunc non tempor elit, id lobortis tortor. Maecenas dolor elit, bibendum vel luctus ac, posuere id mi. Morbi sodales, ex sit amet iaculis tincidunt, odio libero blandit est, iaculis tincidunt risus purus aliquam neque. Sed dapibus ut velit ut semper. Fusce hendrerit bibendum ligula vel fermentum. Donec et porta leo. Sed venenatis est at dignissim vehicula. Nunc feugiat eleifend nulla. Fusce vitae sem eu magna porttitor hendrerit. Proin ac viverra tortor.</p>
+            </div><!--multi-column-->
+        	<div class="go-top"><a href="#header"><i class="fa fa-angle-up" aria-hidden="true"></i></a></div>
+        </div><!--wrapper-->
+    </section>
+    
+    <section>
+    	<div class="wrapper">
+        	<h2 id="immagini">Immagini</h2>
+            <div class="gallery clearfix">
+            	<figure>
+                    <a href="img/big01.jpg" title="corso digital">
+                        <img src="img/small01.jpg" width="318" height="120" alt="corso digital">
+                    </a>
+                </figure>
+                <figure>
+                    <a href="img/big02.jpg" title="corso digital">
+                        <img src="img/small02.jpg" width="286" height="120" alt="corso digital">
+                    </a>
+                </figure>
+                <figure>
+                    <a href="img/big03.jpg" title="corso marketing">
+                        <img src="img/small03.jpg" width="286" height="120" alt="corso digital">
+                    </a>
+                </figure>
+                <figure>
+                    <a href="img/big04.jpeg" title="corso php">
+                        <img src="img/small04.jpeg" width="286" height="120" alt="corso digital">
+                    </a>
+                </figure>
+                <figure>
+                    <a href="img/big05.jpg" title="corso seo">
+                        <img src="img/small05.jpg" width="286" height="120" alt="corso digital">
+                    </a>
+                </figure>
+                <figure>
+                    <a href="img/big06.jpg" title="corso web">
+                        <img src="img/small06.jpg" width="286" height="120" alt="corso digital">
+                    </a>
+                </figure>
+            </div>
+            <div class="go-top"><a href="#header"><i class="fa fa-angle-up" aria-hidden="true"></i></a></div>
+        </div><!--wrapper-->
+    </section>
+    
+    <section>
+    	<div class="wrapper">
+        	<div id="form-container">
+                <h2 id="contatti">Scrivici</h2>
+                <form name="contatti" id="form_contatti" action="modulo-contatti.php" method="post">
+                    <input class="testo" type="text" name="nome" placeholder="nome"/>
+                    <input class="testo" type="email" name="email" placeholder="email"/>
+                    <textarea class="messaggio" placeholder="sito a scopo didattico"></textarea>
+                    <input type="submit" id="invia" name="invia" value="invia"/>
+                 </form>
+            </div><!--form-->
+			<div class="go-top"><a href="#header"><i class="fa fa-angle-up" aria-hidden="true"></i></a></div>
+        </div><!--wrapper-->
+    </section>
+    
+    <footer>
+    	<div class="wrapper clearfix">
+        	<ul id="social">
+            	<li><a href="http://twitter.com" title="twitter"><i class="fa fa-twitter"></i></a></li>
+            	<li><a href="http://facebook.com" title="facebook"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="http://pinterest.com" title="pinterest"><i class="fa fa-pinterest"></i></a></li>
+            	<li><a href="mailto:info@venetoformazione.it" title="Invia una mail"><i class="fa fa-envelope"></i></a></li>
+            	<!--<li><a href="http://www.venetoformazione.it/blog/feed/" title="Feed-rss"><i class="fa fa-rss"></i></a></li>-->
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
