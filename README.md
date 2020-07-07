@@ -10,25 +10,9 @@ This is my example of the responsive method, by <a href="http://www.massimoceron
                                 <p>Ma come va costruito un sito con queste caratteristiche?</p>
                             	<p>Qualunque sia il livello del progetto, è importante decidere sin dal principio quale
 approccio si desideri utilizzare tra i due che seguono:<br>
-- <b>content first (prima i contenuti)</b>: in questo caso la gestione dei contenuti deve essere fulcro
+- <b>content first (prima i contenuti)</b>: in questo caso la gestione dei contenuti deve essere fulcro centrale nell’affrontare un progetto.<br>I contenuti non sono solamente le immagini, i testi e gli elementi multimediali che costituiscono la base del sito, ma anche il logo, il menu di navigazione principale, le sezioni secondarie, i moduli per la ricerca sul sito, le inserzioni pubblicitarie, etc. <br>Fondamentale è porsi le domande giuste in fatto di strategia per la gestione dei contenuti, passando dal “cosa” (quali contenuti) al “come” (tecniche e modalità di presentazione degli stessi).<br><br>
 
-centrale nell’affrontare un progetto.<br>I contenuti non sono solamente le immagini, i testi e gli elementi multimediali che costituiscono la base del sito, ma anche
-
-il logo, il menu di navigazione principale, le sezioni secondarie, i moduli per la
-
-ricerca sul sito, le inserzioni pubblicitarie, etc. <br>Fondamentale è porsi le domande giuste in fatto di strategia per la gestione dei contenuti, passando dal “cosa”
-
-(quali contenuti) al “come” (tecniche e modalità di presentazione degli stessi).<br><br>
-
-- <b>mobile first (prima il mobile)</b>: secondo questo approccio, nella progettazione del sito, è necessario partire dalla strutturazione dei contenuti per lo scher-
-mo limitato nelle dimensioni dei dispositivi mobili. <br>Non si parte, quindi, da un
-
-layout e da un set di funzionalità concepiti per il desktop per poi adattarli per il
-
-mobile. Al contrario, si parte dai limiti posti dai dispositivi mobili per concentrarsi al meglio sui contenuti essenziali, per poi arricchire il tutto sui dispositivi
-
-più capaci, man mano che aumentano le dimensioni dello schermo
-(ma anche la potenza dell’hardware).<br><br>
+- <b>mobile first (prima il mobile)</b>: secondo questo approccio, nella progettazione del sito, è necessario partire dalla strutturazione dei contenuti per lo schermo limitato nelle dimensioni dei dispositivi mobili. <br>Non si parte, quindi, da un layout e da un set di funzionalità concepiti per il desktop per poi adattarli per il mobile. Al contrario, si parte dai limiti posti dai dispositivi mobili per concentrarsi al meglio sui contenuti essenziali, per poi arricchire il tutto sui dispositivi più capaci, man mano che aumentano le dimensioni dello schermo (ma anche la potenza dell’hardware).<br><br>
 
 Qualunque sia il punto di vista che si sceglie di seguire, è necessario definire anzitutto i breakpoints del sito attraverso le media queries, ossia i cosiddetti punti di rottura, che tendenzialmente sono per poter visualizzare correttamente il sito con <i>smartphone</i>, <i>tablet</i> e <i>dekstop</i> per pc.</p>
                 <p><p>Questo esempio (che si puo&grave; vedere sia cliccando sul titolo Responsive, che sull'occhiolino dal titolo "in breve" dell'aside di destra) e&grave; costruito sulla base di queste specifiche, e quindi:<br>- con un layout per tablet definito dalle regole css
