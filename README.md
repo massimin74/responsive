@@ -17,3 +17,7 @@ Qualunque sia il punto di vista che si sceglie di seguire, è necessario definir
 <p>Questo esempio e&grave; costruito sulla base di queste specifiche, e quindi:<br>- con un layout per tablet definito dalle regole css
 <i>@media only screen and (min-width:768px) and (max-width:991px)</i>;
 <br>- con un layout per mobile, definito dalle regole css <i>@media only screen and (max-width:480px)</i> ,<br>oltre a quello per desktop per pc.<br><br>La galleria di immagini e&grave; implementata con il <a href="https://github.com/woocommerce/FlexSlider" target="_blank">Flexslider</a>, uno slider Responsive basato sulla libreria jQuery e che puo&grave; essere installato seguendo la procedura disponibile a <a href="http://www.thomasmoore.it/webdesign/js/flexslider.asp" target="_blank">questo</a> link.</p>
+
+# screenshot
+  
+![screenshot](img/1.jpg) 
