@@ -20,4 +20,4 @@ Qualunque sia il punto di vista che si sceglie di seguire, è necessario definir
 
 # screenshot
   
-![screenshot](img/1.jpg) 
+![immagine-di-esempio](img/big01.jpg) 
